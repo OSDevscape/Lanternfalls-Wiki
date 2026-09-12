@@ -1,0 +1,132 @@
+
+        body {
+            margin: auto;
+            max-width: 1050px;
+            padding: 28px;
+            background: #171009;
+            color: #211a12;
+            font: 16px Georgia;
+        }
+
+        a {
+            color: #603b0b;
+        }
+
+        .head {
+            padding: 18px;
+            background: #3c2a14;
+            color: #ffcf3f;
+            border: 3px solid #150d05;
+        }
+
+        .head .site-logo {
+            display: block;
+            width: 56px;
+            height: 56px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
+        }
+
+        .paper {
+            padding: 24px;
+            background: #e2dbc8;
+            border: 4px solid #2a1a08;
+        }
+
+        .box {
+            margin: 14px 0;
+            padding: 12px;
+            background: #f0e3be;
+            border: 1px solid #a67b38;
+        }
+
+        .tag {
+            display: inline-block;
+            margin: 3px;
+            padding: 4px 8px;
+            background: #f1d577;
+            border: 1px solid #855d1f;
+            border-radius: 999px;
+        }
+
+        .imgs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+        }
+
+        .imgs img {
+            width: 100%;
+            border: 3px solid #38220b;
+        }
+
+        .wiki-tree {
+            margin: 0;
+            padding-left: 1.2rem;
+            list-style: none;
+        }
+
+        .wiki-tree ul {
+            margin: .25rem 0 .25rem .45rem;
+            padding-left: 1.15rem;
+            border-left: 1px solid #a67b38;
+            list-style: none;
+        }
+
+        .wiki-tree li {
+            margin: .22rem 0;
+        }
+
+        .wiki-tree details > summary {
+            padding: .25rem .4rem;
+            color: #4b2e08;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+        .wiki-tree details > summary:hover {
+            background: #f0e3be;
+        }
+
+        .wiki-page a {
+            display: inline-block;
+            padding: .25rem .4rem;
+            border-radius: 4px;
+            text-decoration: none;
+        }
+
+        .wiki-page a:hover {
+            background: #f0e3be;
+            text-decoration: underline;
+        }
+
+        /* High-contrast button for exported page headers */
+        .back-button {
+            display: inline-block;
+            margin-bottom: 14px;
+            padding: 8px 12px;
+            color: #1a120a;
+            background: #ffcf3f;
+            border: 2px solid #fff2b6;
+            border-radius: 5px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, .45);
+            font-family: system-ui, sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .back-button:hover {
+            color: #1a120a;
+            background: #fff2b6;
+            border-color: #ffcf3f;
+            text-decoration: none;
+        }
+
+        .back-button:focus-visible {
+            outline: 3px solid #ffffff;
+            outline-offset: 3px;
+        }
+    
